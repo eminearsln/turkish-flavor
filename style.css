@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 10px;
+}
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+html::-webkit-scrollbar-thumb {
+  background: #57a2b5;
+  border-radius: 10px;
+}
+#navbar {
+  background: transparent;
+  padding: 0px 9% 0px;
+}
+#logo img {
+  width: 190px;
+  padding: 0px 9% 0px;
+}
+.nav-item .nav-link {
+  transition: all 0.5s;
+}
+.nav-item .nav-link:hover {
+  color: #33ccff !important;
+}
+.home {
+  padding: 5px 11% 80px;
+}
+.home .img {
+  flex: 1 1 300px;
+}
+.home .img img {
+  margin-left: 60px;
+}
+.home-content {
+  flex: 1 1 400px;
+  margin-top: 30px;
+}
+.home-content h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+@media screen and (max-width: 870px) {
+  .home .img img {
+    margin-left: 0;
+  }
+}
+
+.top-section {
+  padding: 100px 11% 100px;
+}
+.top-section h5 {
+  color: #57a2b5;
+}
+.top-section .row .card img {
+  width: 200px;
+}
+.menu {
+  padding: 100px 11% 100px;
+}
+.order {
+  padding: 100px 11% 100px;
+}
+.order textarea {
+  resize: none;
+}
+.review {
+  padding: 100px 11% 100px;
+}
+.contact {
+  padding: 100px 11% 100px;
+}
+#comment {
+  resize: none;
+}
+footer {
+  padding: 100px 11% 70px;
+}
+footer img {
+  width: 250px;
+}
+.f-content {
+  cursor: pointer;
+}
+.f-content i {
+  transition: all 0.3s;
+}
+.f-content i:hover {
+  background: #e53a29;
+  color: white;
+}
+footer .f-content i {
+  border-radius: 50%;
+}
+footer .f-content i:hover {
+  background: rgb(29, 29, 29) !important;
+}
